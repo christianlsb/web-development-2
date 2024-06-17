@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import "./styles.css";
 
 export function Header() {
   return (
@@ -7,22 +6,13 @@ export function Header() {
       <nav>
         <ul>
           <li>
-            <Link to="/">
-              <span className="icon-home"></span>Home
-            </Link>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/sobre">Sobre</Link>
-          </li>
-          <li>
-            <Link to="/sobre">Contate-nos</Link>
+            <Link to="/produto">Produto</Link>
           </li>
         </ul>
       </nav>
-      <div className="cart">
-        <span className="icon-cart"></span>
-        <span className="cart-count">0</span>
-      </div>
     </header>
   );
 }
