@@ -1,10 +1,10 @@
 import React from "react";
-import { Header } from "../../components";
+import { CardSkin, Header } from "../../components";
 export function Home() {
   return (
     <>
       <Header />
-      <h1>Pagina Home</h1>
+      <CardSkin name={"Ak - 47"} />
     </>
   );
 }

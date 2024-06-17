@@ -13,3 +13,14 @@
 body {
   background-color: #272b2e;
 }
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+button {
+  border: none;
+  outline: none;
+}
