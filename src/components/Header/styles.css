@@ -2,10 +2,10 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 1170px;
+  width: 1210px;
   max-width: 100%;
   height: 51px;
-  padding: 0 10px;
+  padding: 0 20px;
   background-color: #1c1e22;
   margin: 0 auto;
 }
