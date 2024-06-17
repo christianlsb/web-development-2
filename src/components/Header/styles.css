@@ -1,0 +1,33 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1210px;
+  max-width: 100%;
+  height: 51px;
+  padding: 0 20px;
+  background-color: #1c1e22;
+  margin: 0 auto;
+}
+
+header nav ul {
+  display: flex;
+}
+
+header nav ul li a {
+  transition: 0.3s ease-in-out;
+  padding: 15px 12px;
+}
+
+header nav ul li a:hover {
+  background-color: #272b2e;
+  color: #ffc411;
+  span {
+    color: #ffc411;
+  }
+}
+
+header nav ul li span {
+  margin-right: 5px;
+  transition: 0.1s ease-in-out;
+}

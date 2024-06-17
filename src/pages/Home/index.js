@@ -1,10 +1,20 @@
-import React from "react";
-import { Header } from "../../components";
+import React, { useEffect, useState } from "react";
+import { Header, ItemsHome } from "../../components";
+import api from "../../api";
+
 export function Home() {
+  const [getData, setData] = useState([]);
+
+  useEffect(() => {
+    api.get().then((response) => {
+      setData(response.data);
+    });
+  }, []);
+
   return (
     <>
       <Header />
-      <h1>Pagina Home</h1>
+      <ItemsHome items={getData} />
     </>
   );
 }
