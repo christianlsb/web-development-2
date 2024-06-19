@@ -23,6 +23,11 @@
   padding-bottom: 10px;
 }
 
+.container .content .price {
+  margin-top: auto;
+  padding-top: 10px;
+}
+
 .container .content .add-cart {
   background-color: #ffc411;
   margin-top: auto;
