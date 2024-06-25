@@ -7,15 +7,15 @@ export function Header() {
       <nav>
         <ul>
           <li>
-            <Link to="/">
+            <a href="/">
               <span className="icon-home"></span>Home
-            </Link>
+            </a>
           </li>
           <li>
-            <Link to="/sobre">Sobre</Link>
+            <a href="/sobre">Sobre</a>
           </li>
           <li>
-            <Link to="/sobre">Contate-nos</Link>
+            <a href="/sobre">Contate-nos</a>
           </li>
         </ul>
       </nav>

@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
-import { Header, ItemsHome } from "../../components";
+import { ItemsHome } from "../../components";
 import api from "../../api";
-
 
 export function Home() {
   const [getData, setData] = useState([]);
@@ -14,7 +13,6 @@ export function Home() {
 
   return (
     <>
-      <Header />
       <ItemsHome items={getData} />
     </>
   );
