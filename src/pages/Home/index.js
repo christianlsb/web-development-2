@@ -1,19 +1,30 @@
 import React, { useEffect, useState } from "react";
-import { ItemsHome } from "../../components";
 import api from "../../api";
+import Slider from "react-slick";
+import { ItemsHome } from "../../components";
 
 export function Home() {
-  const [getData, setData] = useState([]);
+  const [getPistols, setPistols] = useState([]);
+  const [getKnifes, setKnifes] = useState([]);
 
   useEffect(() => {
     api.get().then((response) => {
-      setData(response.data);
+      const pistols = response.data.filter(
+        (product) => product.category.name === "Pistolas"
+      );
+      const knifes = response.data.filter(
+        (product) => product.category.name === "Facas"
+      );
+      setPistols(pistols);
+      setKnifes(knifes);
     });
   }, []);
 
   return (
     <>
-      <ItemsHome items={getData} />
+      <h2>CSGO</h2>
+
+      <ItemsHome items={getKnifes} />
     </>
   );
 }
