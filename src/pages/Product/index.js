@@ -13,12 +13,12 @@ export function Product() {
       const item = response.data.find((product) => product.id === productId);
       setSkin(item);
     });
-  }, []);
+  }, [productId]);
 
   console.log(skin);
   return (
     <div>
-      <CardSkin name={skin.name} image={skin.image} id={skin.id}/>
+      <CardSkin name={skin.name} image={skin.image} id={skin.id} />
     </div>
   );
 }

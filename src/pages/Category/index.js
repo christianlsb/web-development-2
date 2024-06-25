@@ -16,7 +16,7 @@ export function Category() {
 
       setItems(items);
     });
-  }, []);
+  }, [categoryId]);
 
   return (
     <div>
