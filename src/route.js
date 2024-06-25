@@ -11,7 +11,7 @@ export default function RoutesApp() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/produto" element={<Product />} />
+          <Route path="/product/:productId" element={<Product />} />
         </Routes>
       </BrowserRouter>
       <footer>aqui</footer>
