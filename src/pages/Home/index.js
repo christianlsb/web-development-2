@@ -5,7 +5,7 @@ export function Home() {
     return (
         <main className="home-main">
             <section className="home-section">
-                <h1 className="title-h1">Bem vindo ao CSGO SKINS!</h1>
+                <h1 className="title-h1">Bem vindo ao SkinsBonitinhas!</h1>
                 <h2 className="title-h2">Um website para navegar de forma fácil, pelas skins do jogo!</h2>
             </section>
             <section className="home-section row">

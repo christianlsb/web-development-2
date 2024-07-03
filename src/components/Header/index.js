@@ -14,7 +14,7 @@ export function Header() {
             <a href="/about">Sobre</a>
           </li>
           <li>
-            <a href="/sobre">Contate-nos</a>
+            <a href="/contact">Contate-nos</a>
           </li>
         </ul>
       </nav>

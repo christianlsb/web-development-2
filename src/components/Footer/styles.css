@@ -6,6 +6,7 @@ footer{
     max-width: 100%;
     padding: 20px 20px;
     background-color: #1c1e22;
+    border: 1px solid #0c0d0e;
     position: fixed;
     bottom: 0;
     left: 50%;
