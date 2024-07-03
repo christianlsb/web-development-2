@@ -11,7 +11,7 @@ footer{
     left: 50%;
     transform: translateX(-50%);
 }
-h2{
+footer .footer-links h2{
     text-align: center;
     color: #ffc411;
 }
