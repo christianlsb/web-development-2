@@ -2,7 +2,7 @@ import "./styles.css";
 
 export function AboutSection() {
   return (
-    <div className="container">
+    <div className="container-about">
       <section>
         <h1>Conheça mais sobre nós</h1>
         <p>
