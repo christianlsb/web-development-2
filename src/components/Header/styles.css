@@ -12,6 +12,7 @@ header {
 
 header nav ul {
   display: flex;
+  line-height: 47px;
 }
 
 header nav ul li a {
