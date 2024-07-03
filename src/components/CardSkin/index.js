@@ -12,7 +12,7 @@ export function CardSkin({ name, image, id, btnView }) {
         <button className="add-cart">Adicionar ao carrinho</button>
         {btnView && (
           <button className="view-details">
-            <Link className="" to={`/product/${id}`}>Visualizar o produto</Link>
+            <Link className="link-details" to={`/product/${id}`}>Visualizar o produto</Link>
           </button>
         )}
       </div>
