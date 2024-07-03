@@ -12,25 +12,21 @@
 
 .container h1 {
   font-size: 2.5rem;
-  font-family: Minecrafter;
   text-align: center;
   margin: 20px 0px;
 }
 
 .container span {
   font-size: 1.5rem;
-  font-family: Minecrafter;
   color: #ffc411;
 }
 
 .container p {
   font-size: 1.5rem;
-  font-family: Minecrafter;
 }
 
 .container h2 {
   font-size: 2rem;
-  font-family: Minecrafter;
 }
 
 .container ul {
@@ -41,6 +37,5 @@
 
 .container li {
   font-size: 1.5rem;
-  font-family: Minecrafter;
   margin-top: 20px;
 }
