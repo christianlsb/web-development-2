@@ -1,3 +1,9 @@
+@font-face {
+  font-family: Minecrafter;
+  src: url(/src/fonts/MinecraftRegular-Bmg3.otf);
+}
+
+
 .container {
   width: 25%;
   max-width: 100%;
@@ -21,6 +27,7 @@
 
 .container .content h3 {
   padding-bottom: 10px;
+  font-family: Minecrafter;
 }
 
 .container .content .price {
@@ -35,6 +42,7 @@
   color: #0c0d0e;
   cursor: pointer;
   transition: 0.3s ease-in-out;
+  font-family: Minecrafter;
 }
 
 .container .content .view-details {
@@ -68,6 +76,10 @@
   background-repeat: no-repeat;
   filter: none;
   color: #fff;
+}
+
+.link-details{
+  font-family: Minecrafter;
 }
 
 @media (max-width: 992px) {
