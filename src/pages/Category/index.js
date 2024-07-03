@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { ItemsHome } from "../../components";
+import { ItemsProducts } from "../../components";
 import api from "../../api";
 import { useParams } from "react-router-dom";
 
@@ -20,7 +20,7 @@ export function Category() {
 
   return (
     <div>
-      <ItemsHome items={getItems} />
+      <ItemsProducts items={getItems} />
     </div>
   );
 }

@@ -2,7 +2,7 @@ import { useState } from "react";
 import { CardSkin } from "../CardSkin";
 import "./styles.css";
 
-export function ItemsHome({ items }) {
+export function ItemsProducts({ items }) {
   const [filter, setFilter] = useState("");
 
   const filteredItems = items.filter((item) =>

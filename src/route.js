@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-import { Home, Product, Category } from "./pages";
+import { Products, Product, Category, Home} from "./pages";
 import { Footer, Header } from "./components";
 
 export default function RoutesApp() {
@@ -11,6 +11,7 @@ export default function RoutesApp() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/products" element = {<Products/>}/>
           <Route path="/product/:productId" element={<Product />} />
           <Route path="/category/:categoryId" element={<Category />} />
         </Routes>
